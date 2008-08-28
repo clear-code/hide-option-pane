@@ -6,11 +6,11 @@ var PreferencesCustomizer = {
 			case 'DOMContentLoaded':
 				window.removeEventListener('DOMContentLoaded', this, false);
 				this.hidePanes();
-				this.initSelection();
 				break;
 
 			case 'load':
 				window.removeEventListener('load', this, false);
+				this.initSelection();
 				break;
 		}
 	},
@@ -22,8 +22,10 @@ var PreferencesCustomizer = {
 			var name = aButton.getAttribute('pane');
 			var enabled = this.getPref(prefix+name+'.enabled');
 			if (enabled === null) return;
-			if (!enabled)
+			if (!enabled) {
 				aButton.setAttribute('hidden', true);
+				document.getElementById(name).style.visibility = 'hidden';
+			}
 		}, this);
 	},
 
@@ -87,4 +89,4 @@ var PreferencesCustomizer = {
 };
 
 window.addEventListener('DOMContentLoaded', PreferencesCustomizer, false);
-//window.addEventListener('load', PreferencesCustomizer, false);
+window.addEventListener('load', PreferencesCustomizer, false);
