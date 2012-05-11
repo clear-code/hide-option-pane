@@ -4,7 +4,7 @@
 	<Description about="urn:mozilla:install-manifest">
 		<em:id>preferencescustomizer@clear-code.com</em:id>
 		<em:name>Preferences Customizer</em:name>
-		<em:version>0.1</em:version>
+		<em:version>0.2</em:version>
 		<em:description>Customize preferences dialog.</em:description>
 		<em:creator>ClearCode inc.</em:creator>
 		<!--em:optionsURL></em:optionsURL-->
