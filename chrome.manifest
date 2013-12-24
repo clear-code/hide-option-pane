@@ -1,4 +1,4 @@
-content	preferencescustomizer	jar:chrome/preferencescustomizer.jar!/content/preferencescustomizer/
+content	preferencescustomizer	content/preferencescustomizer/
 
 overlay	chrome://browser/content/preferences/preferences.xul	chrome://preferencescustomizer/content/preferences.xul
 overlay	chrome://messenger/content/preferences/preferences.xul	chrome://preferencescustomizer/content/preferences.xul
