@@ -2,10 +2,10 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 	<Description about="urn:mozilla:install-manifest">
-		<em:id>preferencescustomizer@clear-code.com</em:id>
-		<em:name>Preferences Customizer</em:name>
+		<em:id>hideoptionpane@clear-code.com</em:id>
+		<em:name>Hide Option Pane</em:name>
 		<em:version>0.2</em:version>
-		<em:description>Customize preferences dialog.</em:description>
+		<em:description>Provides ability to hide option panes.</em:description>
 		<em:creator>ClearCode inc.</em:creator>
 		<!--em:optionsURL></em:optionsURL-->
 		<!--em:homepageURL>http://www.clear-code.com/oss/tb/</em:homepageURL-->

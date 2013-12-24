@@ -1,4 +1,4 @@
-PACKAGE_NAME = preferencescustomizer
+PACKAGE_NAME = hideoptionpane
 
 all: xpi
 

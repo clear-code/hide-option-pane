@@ -1,4 +1,4 @@
-content	preferencescustomizer	content/preferencescustomizer/
+content	hideoptionpane	content/hideoptionpane/
 
-overlay	chrome://browser/content/preferences/preferences.xul	chrome://preferencescustomizer/content/preferences.xul
-overlay	chrome://messenger/content/preferences/preferences.xul	chrome://preferencescustomizer/content/preferences.xul
+overlay	chrome://browser/content/preferences/preferences.xul	chrome://hideoptionpane/content/preferences.xul
+overlay	chrome://messenger/content/preferences/preferences.xul	chrome://hideoptionpane/content/preferences.xul

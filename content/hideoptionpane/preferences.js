@@ -1,4 +1,4 @@
-var PreferencesCustomizer = {
+var HideOptionPane = {
 	handleEvent : function(aEvent)
 	{
 		switch (aEvent.type)
@@ -56,7 +56,7 @@ var PreferencesCustomizer = {
 
 	get root()
 	{
-		return 'extensions.preferencescustomizer.'+this.product+'.';
+		return 'extensions.hideoptionpane@clear-code.com.'+this.product+'.';
 	},
 
 	get product()
@@ -88,5 +88,5 @@ var PreferencesCustomizer = {
 	}
 };
 
-window.addEventListener('DOMContentLoaded', PreferencesCustomizer, false);
-window.addEventListener('load', PreferencesCustomizer, false);
+window.addEventListener('DOMContentLoaded', HideOptionPane, false);
+window.addEventListener('load', HideOptionPane, false);
