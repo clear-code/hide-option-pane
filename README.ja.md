@@ -1,8 +1,8 @@
 # Hide Option Pane
 
-## What's this?
+## これは何？
 
-Provides ability to hide needless option panes via those boolean preferences:
+必要のない設定パネルを、以下の真偽値の設定を変更するだけで隠せるようにします。
 
 	pref("extensions.hideoptionpane@clear-code.com.browser.paneMain.enabled", true);
 	pref("extensions.hideoptionpane@clear-code.com.browser.paneTabs.enabled", true);
@@ -22,6 +22,6 @@ Provides ability to hide needless option panes via those boolean preferences:
 	pref("extensions.hideoptionpane@clear-code.com.messenger.paneDownloads.enabled", true); // for old Thunderbird
 	pref("extensions.hideoptionpane@clear-code.com.messenger.paneAdvanced.enabled", true);
 
-Moreover, on future versions of Firefox/Thunderbird, this will work with preferences like `extensions.hideoptionpane@clear-code.com.browser.(pane id).enabled`.
+これ以外にも、将来のバージョンのFirefox/Thunderbirdで追加されたパネルについて、 `extensions.hideoptionpane@clear-code.com.browser.(pane id).enabled` のような設定を作成する事で同様に表示・非表示を管理することができます。
 
-This is mainly designed for corporate-use.
+このアドオンは主に法人利用を想定して開発されています。
