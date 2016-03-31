@@ -1,5 +1,7 @@
 # Hide Option Pane
 
+Download Link: https://addons.mozilla.org/firefox/addon/hide-option-pane/
+
 ## What's this?
 
 Provides ability to hide needless option panes via those boolean preferences:
