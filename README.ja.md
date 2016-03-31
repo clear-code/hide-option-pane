@@ -1,5 +1,7 @@
 # Hide Option Pane
 
+ダウンロードリンク: https://addons.mozilla.org/firefox/addon/hide-option-pane/
+
 ## これは何？
 
 必要のない設定パネルを、以下の真偽値の設定を変更するだけで隠せるようにします。
